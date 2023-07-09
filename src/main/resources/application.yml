@@ -1,0 +1,10 @@
+spring.kafka.bootstrap-servers: localhost:29092
+kafka:
+  consumer:
+    groups:
+      id: kafka-test
+      not-null-id: kafka-test-key
+      local: kafka-local
+  topic:
+    local-events: local-events
+    id-events: id-events
